@@ -1,0 +1,29 @@
+.form{
+    width: 0%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resaltar{
+    text-align: center;
+}
+.a{
+    text-align: left;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+.caja2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
