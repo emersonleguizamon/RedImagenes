@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista3</title>
+</head>
+<body>
+    <h2>Bienvenido al registro</h2>
+
+    <form action="/registro" method="post">
+        <p>
+            <label for="">ID</label>
+            <input type="text" name ="txtId">
+        </p>
+        <p>
+            <label for="">Nombre</label>
+            <input type="text" name ="txtNombre">
+        </p>
+        <p>
+            <label for="">Apellido</label>
+            <input type="text" name ="txtApellido">
+        </p>
+        <p>
+            <label for="">Correo</label>
+            <input type="text" name ="txtCorreo">
+        </p>
+        <p>
+            <label for="">Usuario</label>
+            <input type="text" maxlength=20 required, name ="txtUsuario">
+        </p>
+        <p>
+            <label for="">Contraseña</label>
+            <input type="password" maxlength=10 required name ="txtPassword">
+        </p>
+        <input type="submit" value="Enviar" name="btnEnviar">
+    </form>
+</body>
+</html>
